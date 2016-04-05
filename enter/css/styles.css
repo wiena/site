@@ -1,0 +1,143 @@
+body {
+	
+	background: url('../images/amsterdam.jpg') no-repeat;
+	color: #fff;
+	font-size: 16px;
+	font-family: 'Indie Flower', cursive;
+}
+#header-nav {
+	background-color: #f6b319;
+	border-radius: 0;
+	border: 0;
+}
+#logo-img{
+	background: url('../images/lin.png') no-repeat;
+	width: 150px;
+  	height: 150px;
+  	margin-top: 10px;
+  	margin-bottom: 5px;
+  	color: red;
+  	margin-right: 40px;
+
+}
+.navbar-brand h1 { /* linyx mint name*/
+	text-decoration: none;
+	color: green;
+	text-transform: uppercase;
+	font-size: 2em;
+	margin-top: 0;
+	font-weight: bold;
+	text-shadow: 1px 1px black;
+
+}
+.navbar-brand h1 span {
+	font-size: 0.4em;
+	font-weight: normal;
+	text-shadow: none;
+	width: 100px;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+#nav-list a {
+	color:green;
+	font-size: 1.5em;
+	padding: 5px;
+	margin-top: 10px;
+}
+#nav-list a:hover {
+	background-color: green;
+	color: #f6b319;
+}
+.navbar-header button.navbar-toggle {
+  clear: left;/* Sa ovim sem resio ono kada se smanji zuto kada smanjuje ekran*/
+  margin-bottom: 22px;
+}
+#pic1, #pic2, #pic3, #pic4{
+	border:3px solid black;
+	margin-bottom: 20px;
+	height: 340px;
+	position: relative;
+	text-decoration: none;
+}
+
+
+#pic1{
+	
+	background: url('../images/microsoft-linux.jpg') no-repeat;
+	background-position: center; 
+
+}
+#pic2{
+
+	background: url('../images/community.jpg') no-repeat;	
+	background-position: center;
+}
+#pic3{
+	
+	background: url('../images/tovarld.jpg') no-repeat;
+	background-position: center;
+}
+#pic4{
+	background: url('../images/linux-dist.jpg') no-repeat;
+	background-position: center;
+
+
+}
+
+#pic1 span, #pic2 span, #pic3 span, #pic4 span{
+	color: yellow;
+	text-align: center;
+	text-transform: uppercase;
+	display: block;
+	background-color: green;
+	opacity: 0.6;
+	font-size: 1.3em;
+	
+
+}
+.futer{
+	background-color: #f6b319;
+	color: green;
+	margin-top: 28px;
+	padding-top: 20px; /*odnosi se na tekst u futeru*/
+	padding-bottom: 20px;
+}
+.a{
+	display: block;
+}
+.text-center{
+	margin-top: 25px;
+}
+#maps{
+	text-align: center;
+}
+
+
+@media (max-width: 360px){ /* For iphone 5 */
+	#smanji{
+		font-size: 3.2vw;
+	}
+}
+@media (min-width: 769px) and (max-width: 993px){
+	body {
+	
+	background: url('../images/amsterdam2.jpg') no-repeat;
+	
+		}
+}
+
+@media (min-width: 530px) and (max-width: 768px){
+  
+  .container {
+    width: 490px;
+  }
+}
+
+@media (max-width: 768px){
+	body{
+
+  	background: url('../images/amsterdam3.jpg') no-repeat;
+  
+  }
+}
